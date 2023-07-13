@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 400px;
+    padding: 24px;
+}
+.container h2{
+    padding: 20px;
+    text-align: center;
+    color: rgb(3, 3, 4);
+    font-size: 24px;
+}
+.form-group{
+    padding: 20px;
+}
+.form-group label{
+    display: flex;
+    margin-bottom: 10px;
+
+}
+.form-group input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    outline: none;
+    margin-bottom: 10px;
+    transition: all 0.3s ease-in;
+}
+.form-group button{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+
+}
+.switch-form{
+    text-align: center;
+
+}
+.switch-form p{
+    margin-top: 10px;
+    
+}
+.switch-form a{
+    color: blue;
+    text-decoration: none;
+    
+}
